@@ -1,43 +1,134 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Compiled source #
+###################
 
-# Folder config file
-Desktop.ini
+*.com
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+*.class
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+*.dll
 
-# =========================
-# Operating System Files
-# =========================
+*.exe
 
-# OSX
-# =========================
+*.o
+*.obj
+*.sdf
+*.so
+
+
+# Packages #
+############
+
+# it's better to unpack these files and commit the raw source
+
+# git has its own built in compression methods
+
+*.7z
+
+*.dmg
+
+*.gz
+
+*.iso
+
+*.jar
+
+*.rar
+
+*.tar
+
+*.zip
+
+
+# Logs and databases #
+######################
+
+*.log
+
+*.sql
+
+*.sqlite
+
+
+# OS generated files #
+######################
 
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Icon must end with two \r
-Icon
+.DS_Store?
 
-# Thumbnails
 ._*
 
-# Files that might appear on external disk
 .Spotlight-V100
+
 .Trashes
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+ehthumbs.db
+
+Thumbs.db
+*.ipch
+*.cso
+*.appxrecipe
+*.pckgdep
+*.pdb
+*.ilk
+*.pri
+*.winmd
+*.opensdf
+DirectXGame1/Debug/DirectXGame1/AppxManifest.xml
+DirectXGame1/Debug/DirectXGame1/asteroid.cmo
+DirectXGame1/Debug/DirectXGame1/laser.cmo
+DirectXGame1/Debug/DirectXGame1/player-ship.cmo
+DirectXGame1/Debug/DirectXGame1/playerhitquad.cmo
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Assignments_Assignment 3_DirectXGame1_DirectXGame1_Assets_asteroid__color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Assignments_Assignment 3_DirectXGame1_DirectXGame1_Assets_playerhitquad-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Assignments_Assignment 3_DirectXGame1_DirectXGame1_Assets_playertest2.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Bitbucket Repo_DirectXGame1_DirectXGame1_Assets_asteroid__color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Assignments_Assignment 3_DirectXGame1_DirectXGame1_Assets_laser-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Bitbucket Repo_DirectXGame1_DirectXGame1_Assets_laser-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Bitbucket Repo_DirectXGame1_DirectXGame1_Assets_playerhitquad-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Bitbucket Repo_DirectXGame1_DirectXGame1_Assets_playertest2.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Game Project_DirectXGame1_DirectXGame1_Assets_asteroid__color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Game Project_DirectXGame1_DirectXGame1_Assets_laser-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Game Project_DirectXGame1_DirectXGame1_Assets_playerhitquad-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_School_Courses_COMP 3501_Game Project_DirectXGame1_DirectXGame1_Assets_playertest2.png.dds
+DirectXGame1/Debug/DirectXGame1/_Users_Terrence_Documents_comp3501_DirectXGame1_DirectXGame1_Assets_asteroid__color.png.dds
+DirectXGame1/Debug/DirectXGame1/_Users_Terrence_Documents_comp3501_DirectXGame1_DirectXGame1_Assets_laser-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_Users_Terrence_Documents_comp3501_DirectXGame1_DirectXGame1_Assets_playerhitquad-color.png.dds
+DirectXGame1/Debug/DirectXGame1/_Users_Terrence_Documents_comp3501_DirectXGame1_DirectXGame1_Assets_playertest2.png.dds
+DirectXGame1/Debug/DirectXGame1/AppX/_USERS_TERRENCE_DOCUMENTS_COMP3501_DIRECTXGAME1_DIRECTXGAME1_ASSETS_PLAYERTEST2.PNG.DDS
+DirectXGame1/Debug/DirectXGame1/AppX/_USERS_TERRENCE_DOCUMENTS_COMP3501_DIRECTXGAME1_DIRECTXGAME1_ASSETS_PLAYERHITQUAD-COLOR.PNG.DDS
+DirectXGame1/Debug/DirectXGame1/AppX/_USERS_TERRENCE_DOCUMENTS_COMP3501_DIRECTXGAME1_DIRECTXGAME1_ASSETS_LASER-COLOR.PNG.DDS
+DirectXGame1/Debug/DirectXGame1/AppX/_USERS_TERRENCE_DOCUMENTS_COMP3501_DIRECTXGAME1_DIRECTXGAME1_ASSETS_ASTEROID__COLOR.PNG.DDS
+DirectXGame1/Debug/DirectXGame1/AppX/PLAYERHITQUAD.CMO
+DirectXGame1/Debug/DirectXGame1/AppX/PLAYER-SHIP.CMO
+DirectXGame1/Debug/DirectXGame1/AppX/LASER.CMO
+DirectXGame1/Debug/DirectXGame1/AppX/ASTEROID.CMO
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/test-texure.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/test-texure.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/StoreLogo.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/SplashScreen.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/SmallLogo.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/skybox_up.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/skybox_right.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/skybox_left.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/skybox_front.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/skybox_down.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/skybox_back.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/playertest2.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/playertest2.dds
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/playerhitquad-color.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/Logo.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/laser-color.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/laser-color - Copy.png
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/chord.wav
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/becky.wma
+DirectXGame1/Debug/DirectXGame1/AppX/Assets/asteroid_color.png
+DirectXGame1/Debug/DirectXGame1/AppX/AppxManifest.xml
+DirectXGame1/DirectXGame1/Debug/layout.resfiles.intermediate
+DirectXGame1/DirectXGame1/Debug/MultipleQualifiersPerDimensionFound.txt
+DirectXGame1/DirectXGame1/Debug/pri.resfiles.intermediate
+DirectXGame1/DirectXGame1/Debug/priconfig.xml.intermediate
+DirectXGame1/DirectXGame1/Debug/ProjectArchitectures.txt
+DirectXGame1/DirectXGame1/Debug/qualifiers.txt
+DirectXGame1/DirectXGame1/Debug/qualifiers.txt.intermediate
+DirectXGame1/DirectXGame1/Debug/resources.resfiles.intermediate

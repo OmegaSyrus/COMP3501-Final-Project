@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>6906a07d-477b-40c2-8406-cf007437f859</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>bbdf7e9f-e88a-4c2e-86c7-464a19365e83</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>471d5af8-d272-4677-aa09-109ee5faf790</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>f316d7f8-208a-4335-a2f2-0b7a99facba7</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Helpers\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Helpers\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Helpers\OverlayManager.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SoundPlayer.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClCompile Include="Helpers\OverlayManager.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\SoundPlayer.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\Sample3DSceneRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SampleVirtualControllerRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SampleDebugTextRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClCompile Include="Content\Sample3DSceneRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SampleVirtualControllerRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SampleDebugTextRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <Media Include="Assets\chord.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\becky.wma">
+      <Filter>Assets</Filter>
+    </Media>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{e211d8fc-4f4b-4a56-b0e1-aad23bebd434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d08ae2a6-0144-4837-9236-c9150d55e2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f8e8e8de-d98c-48c7-843e-e85d625b9732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Player">
+      <UniqueIdentifier>{d5508971-9a3c-4948-ba60-2dcfae84ff6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Environment">
+      <UniqueIdentifier>{9b176c2c-08b3-491f-8e9e-17175dcfa679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{14a0a00a-affc-4283-998d-2179bd73034d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{cf06acfc-74cd-4c7f-95c3-590f8d5dc103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{e9d4d1fc-d536-40bc-a0ea-284351964b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Collision">
+      <UniqueIdentifier>{2abc7910-4da0-4f33-9122-7f2c18fe9ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{70d993ed-995b-463a-8a70-8ee5af6a1172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics\Collision">
+      <UniqueIdentifier>{3dcc62ea-43e0-4a4c-b2b3-c2866d69484e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skybox">
+      <UniqueIdentifier>{33a9011f-d61c-415d-ba03-6feeb2d0df3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skybox">
+      <UniqueIdentifier>{4e41a942-7e75-4831-82a9-9e3de7680e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXTex">
+      <UniqueIdentifier>{a6f62e87-9415-4daa-8417-e3e657e02619}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="DirectXGame1Main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\InputManager.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Source Files\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxQuad.cpp">
+      <Filter>Source Files\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXTex\DDSTextureLoader.cpp">
+      <Filter>DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plasma.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="DirectXGame1Main.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ppltasks_extra.h" />
+    <ClInclude Include="VSD3DStarter.h" />
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\InputManager.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Header Files\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxQuad.h">
+      <Filter>Header Files\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex\DDSTextureLoader.h">
+      <Filter>DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plasma.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectXGame1_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Animation\SkinningVertexShader.hlsl">
+      <Filter>Animation</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SkyboxPixelShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SkyboxVertexShader.hlsl">
+      <Filter>Content</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\playertest2.png">
+      <Filter>Assets\Player</Filter>
+    </Image>
+    <Image Include="Assets\asteroid_color.png">
+      <Filter>Assets\Environment</Filter>
+    </Image>
+    <Image Include="Assets\laser-color.png">
+      <Filter>Assets\Player</Filter>
+    </Image>
+    <Image Include="Assets\playerhitquad-color.png">
+      <Filter>Assets\Player</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\player-ship.fbx">
+      <Filter>Assets\Player</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\asteroid.fbx">
+      <Filter>Assets\Environment</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\laser.fbx">
+      <Filter>Assets\Player</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\playerhitquad.fbx">
+      <Filter>Assets\Player</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+</Project>
